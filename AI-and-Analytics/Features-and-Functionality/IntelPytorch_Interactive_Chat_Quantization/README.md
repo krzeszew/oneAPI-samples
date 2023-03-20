@@ -6,7 +6,7 @@ The Intel® Extension for PyTorch* extends PyTorch* with optimizations for extra
 
 | Area                  | Description
 |:---                   |:---
-| What you will learn   | How to create interactive chat and add INT8 dynamic quantization form Intel Extension for Pytorch* (IPEX)
+| What you will learn   | How to create interactive chat and add INT8 dynamic quantization form Intel Extension for PyTorch* (IPEX)
 | Time to complete      | 5 minutes
 | Category              | Concepts and Functionality
 
@@ -41,7 +41,7 @@ The necessary tools and components are already installed in the environment. You
 
 ## Key Implementation Details
 
-This code sample impelments interacive chat based on DialoGPT pre-trained model and quantizes it using Intel® Extension for PyTorch*. 
+This code sample implements interactive chat based on DialoGPT pre-trained model and quantizes it using Intel® Extension for PyTorch*. 
 
 The sample tutorial contains one Jupyter Notebook and a Python script. You can use either.
 
