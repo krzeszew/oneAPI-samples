@@ -1,8 +1,6 @@
 # `Interactive chat based on DialoGPT model using Intel® Extension for PyTorch* Quantization` Sample
 
-The `Interactive chat based on DialoGPT model using Intel® Extension for PyTorch* Quantization` sample demonstrates how to create interactive chat based on pre-treained DialoGPT model and add the Intel® Extension for PyTorch* quantization to it.
-
-The Intel® Extension for PyTorch* extends PyTorch* with optimizations for extra performance boost on Intel® hardware. While most of the optimizations will be included in future PyTorch* releases, the extension delivers up-to-date features and optimizations for PyTorch on Intel® hardware. For example, newer optimizations include AVX-512 Vector Neural Network Instructions (AVX512 VNNI) and Intel® Advanced Matrix Extensions (Intel® AMX).
+The `Interactive chat based on DialoGPT model using Intel® Extension for PyTorch* Quantization` sample demonstrates how to create interactive chat based on pre-trained DialoGPT model and add the Intel® Extension for PyTorch* quantization to it.
 
 | Area                  | Description
 |:---                   |:---
@@ -10,10 +8,11 @@ The Intel® Extension for PyTorch* extends PyTorch* with optimizations for extra
 | Time to complete      | 5 minutes
 | Category              | Concepts and Functionality
 
+The Intel® Extension for PyTorch* extends PyTorch* with optimizations for extra performance boost on Intel® hardware. While most of the optimizations will be included in future PyTorch* releases, the extension delivers up-to-date features and optimizations for PyTorch on Intel® hardware. For example, newer optimizations include AVX-512 Vector Neural Network Instructions (AVX512 VNNI) and Intel® Advanced Matrix Extensions (Intel® AMX).
+
 ## Purpose
 
-Sample shows how to create interactive chat based on the pre-trained DialoGPT model from HuggingFace and how to add INT8 dynamic quantization to it.
-The Intel® Extension for PyTorch* gives users the ability to speed up operations on processors with INT8 data format and specialized computer instructions. The INT8 data format uses quarter the bit width of floating-point-32 (FP32), lowering the amount of memory needed and execution time to process with minimum to zero accuracy loss.
+This sample shows how to create interactive chat based on the pre-trained DialoGPT model from HuggingFace and how to add INT8 dynamic quantization to it. The Intel® Extension for PyTorch* gives users the ability to speed up operations on processors with INT8 data format and specialized computer instructions. The INT8 data format uses quarter the bit width of floating-point-32 (FP32), lowering the amount of memory needed and execution time to process with minimum to zero accuracy loss.
 
 ## Prerequisites
 
@@ -41,7 +40,7 @@ The necessary tools and components are already installed in the environment. You
 
 ## Key Implementation Details
 
-This code sample implements interactive chat based on DialoGPT pre-trained model and quantizes it using Intel® Extension for PyTorch*. 
+This code sample implements interactive chat based on DialoGPT pre-trained model and quantizes it using Intel® Extension for PyTorch*.
 
 The sample tutorial contains one Jupyter Notebook and a Python script. You can use either.
 

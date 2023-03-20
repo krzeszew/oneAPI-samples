@@ -4,6 +4,7 @@
     "categories": ["Toolkit/oneAPI AI And Analytics/AI Getting Started Samples"],
     "description": "This sample demonstrates how to create interactive chat based on pre-treained DialoGPT model and add the Intel® Extension for PyTorch* quantization to it.",
     "builder": ["cli"],
+	"toolchain": ["jupyter"],
     "languages": [{"python":{}}],
     "os":["linux"],
     "targetDevice": ["CPU"],
@@ -18,7 +19,7 @@
         }
       ]
   },
-  "expertise": "Getting Started "
+  "expertise": "Getting Started"
   }
   
   
